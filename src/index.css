@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --box-shadow: 0 .5rem 1.5rem #32AA5C;
+    --green: #147736;
+    --light-green: #32AA5C;
+    --btn-color: #212121;
+    --black: #000;
+    --white: #fff;
+    --text-color: #666;
+    --sec-text-color: #817b7b;
+    /* --yellow: #FF9822; */
+    --yellow: #53AD68;
+    --second-footer: #25182E;
+    --hover-color: #5D2B00;
+    --border: #B3B3B3;
+}
+
+.course_display_image {
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.e-dialog {
+    height: 500px !important;
+    width: 500px !important;
+    position: absolute;
+    left: 40% !important;
+    right: 30% !important;
+    top: 20% !important;
+    max-height: 500px !important;
+    min-width: 200px !important;
+
+}
+
+.form-group,
+.form-group label,
+.form-group input {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.8rem;
+}
+
+.form-group input {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: #eee;
+  outline-width: 0;
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  border-bottom: 3px solid var(--hover-color);
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--yellow) !important;
+  color: var(--white) !important;
+}
+.login_btn{
+  background-color: transparent;
+  padding: 2px 30px;
+  border-radius: 5px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+
+}
+.login_btn:hover{
+  color: var(--hover-color);
+}
+
+@media screen and (max-width: 425px) {
+    .e-dialog {
+        position: absolute;
+        left: 10% !important;
+        right: 10% !important;
+        top: 20% !important;
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .e-dialog {
+        position: absolute;
+        left: 5% !important;
+        /* right: 5% !important; */
+        top: 20% !important;
+        width: 240px !important;
+    }
+}
+@media screen and (max-width: 786px) {
+    .e-dialog {
+        position: absolute;
+        left: 20% !important;
+        right: 20% !important;
+        top: 20% !important;
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

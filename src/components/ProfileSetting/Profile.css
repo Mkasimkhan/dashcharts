@@ -1,0 +1,54 @@
+.profile-setting-container {
+    /* background-color: pink; */
+    /* height: 100vh; */
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-setting-container .background-image {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwSHad9ywkIPu-WqOr2W5xAN-rInvNVqmayw&s);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px
+}
+.profile-setting-header-content{
+
+}
+.profile-setting-container .profile-details-container {}
+
+.profile-setting-container .profile-details-container .profile-setting-header {
+    /* background-color: lightgreen; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 0px;
+    flex-wrap: wrap; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-setting-container .profile-details-container .profile-setting-header img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.profile-setting-container .profile-details-container .profile-setting-body {
+    /* background-color: pink; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+@media screen and (max-width: 425px) {
+    .hidden-input-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.bankdash{
+    background-color: blanchedalmond;
+}
+.bankdash-content{
+    
+    background-color: white;
+    width: 100%;
+    gap: 10px;
+    height: 70vh;
+    
+
+
+}
+.right{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+
+
+}
+/* .left{
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+    
+} */
+
+.right .row1{
+    display: flex;
+    height: 40%;
+    gap: 10px;
+    justify-content: space-between;
+    /* background-color: chartreuse; */
+    align-items: center;
+
+    
+}
+.right .row2{
+    height: 60%;
+    background-color: chocolate;
+}
+.charts{
+    height: 99%;
+    width: 32%;
+    /* background-color: darkgoldenrod; */
+    border-radius: 10px;
+
+}
+.recharts-legend-wrapper{
+    display: none;
+}

@@ -1,0 +1,24 @@
+.dashboard-nav-dropdown{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    padding: 10px;
+    display: none;
+}
+.dashboard-nav-dropdown li{
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.nav-porfile-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+}

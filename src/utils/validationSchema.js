@@ -1,0 +1,30 @@
+import * as Yup from 'yup';
+
+export const criteriaSchema = Yup.object().shape({
+  muleHigher: Yup.number().required("Mule Higher is required"),
+  muleLower: Yup.number().required("Mule Lower is required"),
+  moneyMule: Yup.number().required("Money Mule is required"),
+  aCriteria: Yup.number().required("High Risk Transaction Amount is required"),
+  bCriteria: Yup.number().required("National from a high-risk jurisdiction Amount is required"),
+  cCriteria: Yup.number().required("Cash Lodgements Amount is required"),
+  dCriteriaUpper: Yup.number().required("EFT Lodgements Maximum Amount is required"),
+  dCriteriaLower: Yup.number().required("EFT Lodgements Minimum Amount is required"),
+  eCriteria: Yup.number().required("Minor Account Lodgements Amount is required"),
+  fCriteria: Yup.number().required("Sub-office Lodgements Value is required"),
+  gCriteria: Yup.number().required("Counter New Member Lodgements Value is required"),
+  jCriteria: Yup.number().required("Unemployed Lodgements is required"),
+  kCriteria: Yup.number().required("Large Cash Withdrawals is required"),
+  lCriteria: Yup.number().required("Multiple Large Cash Transactions is required"),
+  mCriteria: Yup.number().required("High-Value Wire Transfers is required"),
+  oCriteria: Yup.number().required("Foreign Exchange Transactions is required"),
+  pCriteria: Yup.number().required("High-Frequency Trading Activity is required"),
+  qCriteria: Yup.number().required("Large Inbound Transactions is required"),
+  yCriteria: Yup.number().required("Large Cash Transactions with No Apparent Purpose is required"),
+  zCriteria: Yup.number().required("Suspicious Activity Patterns is required"),
+  debitCardList: Yup.array().min(1, "At least one Debit Card is required"),
+  onlineDC: Yup.array().min(1, "At least one Online DC is required"),
+  subOfficeList: Yup.array().min(1, "At least one Sub Office is required"),
+  highRiskJurisidctionCountries: Yup.array().min(1, "At least one High Risk Jurisdiction Country is required"),
+  residencyCountries: Yup.array().min(1, "At least one Residency Country is required"),
+  codeNotToUse: Yup.array().min(1, "At least one Code Not To Use is required")
+});

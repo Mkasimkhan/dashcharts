@@ -1,0 +1,33 @@
+*{
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+.account-setting-container{
+    /* background-color: lightgreen; */
+    padding: 10px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 3rem;
+}
+
+.account-setting-container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.account-setting-container h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details-container{
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+@media screen and (max-width: 425px) {
+   .details-container{
+    width: 100%
+   }
+  }

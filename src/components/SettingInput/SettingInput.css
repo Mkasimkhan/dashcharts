@@ -1,0 +1,25 @@
+.hidden-input-container {
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.hidden-input-text {
+    color: gray;
+    position: absolute;
+    padding: 3px 5px;
+    font-size: 15px;
+    top: -15px;
+    left: 15px;
+}
+
+.hidden-input-container input {
+    width: 80%;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+}

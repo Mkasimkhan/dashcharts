@@ -1,0 +1,21 @@
+.table-icon{
+    font-size: 2rem;
+    color: #000 !important;
+    padding: 1rem;
+    cursor: pointer;
+}
+.select-option{
+    padding: .6rem;
+    margin-left: 1rem;
+    margin-top: -.9rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td button{
+    background-color: transparent !important;
+}
+table th ,tr:hover{
+    cursor: none !important;
+}

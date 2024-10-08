@@ -1,0 +1,9 @@
+.criteria-step2{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.Step1{
+    display: grid;
+}
