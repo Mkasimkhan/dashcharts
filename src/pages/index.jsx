@@ -13,3 +13,4 @@ export { default as TransactionType } from './TransactionType/TransactionType';
 export { default as AddBankPage } from './Bank/AddBankPage';
 export { default as Banks } from './Bank/Banks';
 export { default as EditBankPage } from './Bank/EditBankPage';
+export { default as FaqPage } from './FaqPage/FaqPage';

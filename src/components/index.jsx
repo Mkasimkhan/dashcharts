@@ -27,6 +27,8 @@ export { default as MuiTable} from "./MuiTable/MuiTable"
 export { default as EditBank} from "./EditBank/EditBank"
 export { default as DeleteModal} from "./Modals/DeleteModal"
 export { default as MultiInput} from "./MultiInput/MultiInput"
+export { default as Faq} from "./Faq/Faq"
+
 
 import { DeleteButton, SecondaryButton, ModalButton} from "./DeleteButton/DeleteButton"
 

@@ -1,0 +1,130 @@
+/* App Container */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f5f8;
+    min-height: 100vh;
+  }
+  
+  /* FAQs Container */
+  .faqs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-right: 12px;
+    padding-bottom: 32px;
+    padding-left: 12px;
+    max-width: 550px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .faqs-container {
+      width: 90%;
+      max-width: 1140px;
+      padding: 32px;
+    }
+  }
+  
+  .heading {
+    color: #03C9D7;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .heading {
+      font-size: 64px;
+    }
+  }
+  
+  /* FAQs List */
+  .faqs-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .faqs-list {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .faqs-list {
+      width: 80%;
+    }
+  }
+  
+  /* FAQ Item */
+  .faq-item {
+    width: 100%;
+    border: 1px solid #d7dae6;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+  }
+  
+  /* Question Container */
+  .question-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question {
+    color: #52606d;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+  }
+.faqdropicon{
+    font-size: 2rem;
+    color: #03C9D7;
+}
+  
+  @media screen and (min-width: 768px) {
+    .question {
+      font-size: 24px;
+    }
+  }
+  
+  .answer {
+    color: #9aa5b1;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    .answer {
+      font-size: 12px;
+    }
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 576px) {
+    .image {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
+  .horizontal-line {
+    border: 1px solid #e4e7eb;
+  }
+  

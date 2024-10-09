@@ -13,8 +13,10 @@ import {
   UploadPage, RegisterPage, 
   Criteria, AccountPage, ProfilePage,
   TransactionType, AddBankPage, Banks,
-  EditBankPage
+  EditBankPage,FaqPage
 } from './pages';
+
+
 
 
 const App = () => {
@@ -61,6 +63,7 @@ const App = () => {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/account-setting" element={<AccountPage />} />
+            <Route path="/faq" element={<FaqPage />} />
 
             {/* <Route path="/dashboard" element={<ProtectedRoutes Component={Dashboard} />} />
             <Route path="/upload-files" element={<ProtectedRoutes Component={UploadPage} />} />
